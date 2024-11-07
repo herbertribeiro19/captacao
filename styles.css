@@ -153,8 +153,8 @@ form button:hover {
 /* Responsividade para dispositivos móveis */
 @media (max-width: 768px) {
   .hero {
-    flex-direction: column;
-    text-align: center;
+      flex-direction: column-reverse;
+      text-align: center;
   }
 
   .hero h1 {
