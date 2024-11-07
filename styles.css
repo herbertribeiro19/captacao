@@ -79,6 +79,9 @@ header {
   font-weight: bold;
   border-radius: 30px;
   transition: 0.3s;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
 }
 
 .hero .btn:hover {
