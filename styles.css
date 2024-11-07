@@ -19,6 +19,8 @@ header {
   display: flex;
   justify-content: center;
   padding: 0px;
+  margin-bottom: -50px;
+  margin-top: -30px;
 }
 
 .logo {
@@ -27,17 +29,17 @@ header {
 
 /* Hero Section */
 .hero {
-  /* width: 1200px; */
   display: flex;
   justify-content: space-around;
   align-items: center;
   padding: 0px 80px 10px 80px;
   color: #fff;
-  gap: 10px;
+  /* gap: 10px; */
 }
 
 .hero .left {
   flex: 1;
+  padding: 80px;
 }
 
 .hero .right {
@@ -47,7 +49,7 @@ header {
 }
 
 .hero h1 {
-  font-size: 3em;
+  font-size: 6em;
   margin-bottom: 20px;
   color: #fff;
 }
@@ -102,7 +104,7 @@ header {
   margin: 50px auto;
   padding: 30px;
   background-color: #fff;
-  border-radius: 8px;
+  border-radius: 20px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -150,6 +152,156 @@ form button:hover {
   background-color: #031402;
 }
 
+.container{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 90%;
+}
+
+.box1{
+  width: 70%;
+  background-color: #f0f0f0;
+  padding: 30px 20px 30px 20px;
+  border-radius: 20px;
+  box-shadow: 0px 2px 10px #031402;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+  margin-top: 10px;
+}
+
+.box2{
+  width: 70%;
+  background-color: #f0f0f0;
+  padding: 30px 20px 30px 20px;
+  border-radius: 20px;
+  box-shadow: 0px 2px 10px #031402;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+  margin-top: 10px;
+}
+
+.icon1{
+  color: #012F00;
+  font-size: 2.5em;
+  margin-left: 10px;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.icon2{
+  color: #012F00;
+  font-size: 2.5em;
+  margin-left: 10px;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.box1 h3{
+  text-align: center;
+  color: #012F00;
+  margin-bottom: 20px;
+}
+
+.bo1 a{
+  text-align: center;
+  color: #012F00;
+  margin-bottom: 20px;
+}
+
+.box2 h3{
+  text-align: center;
+  color: #012F00;
+  margin-bottom: 20px;
+}
+
+.box2 a{
+  text-align: center;
+  color: #012F00;
+  margin-bottom: 20px;
+}
+
+.box1 .btn {
+  display: inline-block;
+  padding: 12px 24px;
+  color: #fff;
+  background-color: #012F00;
+  border: 2px solid #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 30px;
+  transition: 0.3s;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.box1 .btn:hover {
+  background-color: #fff;
+  color: #012F00;
+  border-color: #012F00;
+}
+
+.box2 .btn {
+  display: inline-block;
+  padding: 12px 24px;
+  color: #fff;
+  background-color: #012F00;
+  border: 2px solid #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 30px;
+  transition: 0.3s;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.box2 .btn:hover {
+  background-color: #fff;
+  color: #012F00;
+  border-color: #012F00;
+}
+
+/* Footer */
+.footer {
+  background-color: #fff;
+  color: #012F00;
+  text-align: center;
+  padding: 12px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  font-size: 0.9em;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.footer p {
+  margin: 0;
+  font-weight: bold;
+}
+
+.instagram-icon {
+  color: #012F00;
+  font-size: 1.6em;
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+.instagram-icon:hover {
+  color: #333333; /* Cor de hover opcional */
+}
+
 /* Responsividade para dispositivos móveis */
 @media (max-width: 768px) {
   .hero {
@@ -158,7 +310,12 @@ form button:hover {
   }
 
   .hero h1 {
-    font-size: 2.5em;
+    font-size: 3.5em;
+  }
+
+  .hero .left {
+    flex: 1;
+    padding: 0px;
   }
 
   .btn {
@@ -177,5 +334,27 @@ form button:hover {
 
   form button {
     padding: 10px;
+  }
+
+  .container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: -30px;
+  }
+
+  .box1{
+    width: 100%;
+    margin-bottom: 0;
+  }
+
+  .box2{
+    width: 100%;
+  }
+
+  .footer {
+    padding: 15px 0; 
+    font-size: 0.8em; 
+    margin-top: 30px; 
   }
 }
