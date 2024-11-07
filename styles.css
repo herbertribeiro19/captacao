@@ -69,6 +69,18 @@ header {
   transition: 0.3s;
 }
 
+.form-section .btn {
+  display: inline-block;
+  padding: 12px 24px;
+  color: #012F00;
+  background-color: #fff;
+  border: 2px solid #012F00;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 30px;
+  transition: 0.3s;
+}
+
 .hero .btn:hover {
   background-color: #012F00;
   color: #fff;
@@ -95,6 +107,12 @@ header {
   text-align: center;
   color: #012F00;
   margin-bottom: 20px;
+}
+
+.form-section p {
+  text-align: center;
+  color: #012F00;
+  margin-bottom: 12px;
 }
 
 form label {
