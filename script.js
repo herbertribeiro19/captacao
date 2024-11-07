@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
       const message = document.getElementById("message").value;
 
       emailjs
-        .send("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", {
+        .send("service_gabrielbets", "template_gabrielbets", {
           name,
           phone,
           email,
